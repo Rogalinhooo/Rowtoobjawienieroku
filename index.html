@@ -3,78 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Marginesy w Tabeli</title>
+    <title>Marginesy i Kolory LGBT</title>
     <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
         table {
-            border-collapse: collapse;
             width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
         }
         th, td {
-            border: 1px solid black;
-            padding: 10px; /* Zadanie 1: Podstawowe marginesy wewnętrzne */
+            border: 1px solid #ddd;
+            padding: 10px; /* Zadanie 1 */
         }
         .double-margin {
-            margin: 20px 10px; /* Zadanie 2: Zapis Podwójny Marginesu */
+            margin: 20px 10px; /* Zadanie 2 */
         }
         .triple-margin {
-            margin: 30px 20px 10px 20px; /* Zadanie 3: Zapis Potrójny Marginesu */
+            margin: 20px 10px 30px 10px; /* Zadanie 3 */
         }
         .quadruple-margin {
-            margin: 40px 30px 20px 10px; /* Zadanie 4: Zapis Poczwórny Marginesu */
+            margin: 20px 30px 40px 50px; /* Zadanie 4 */
         }
         .selected-margins {
-            margin-top: 15px; /* Zadanie 5: Marginesy Dla Wybranych Stron */
-            margin-right: 25px;
-            margin-bottom: 35px;
-            margin-left: 45px;
+            margin-top: 20px; /* Zadanie 5 */
+            margin-right: 30px;
+            margin-bottom: 40px;
+            margin-left: 50px;
+        }
+        .lgbt-colors {
+            background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-bottom: 20px;
         }
     </style>
 </head>
 <body>
-    <h1>Przykładowa Tabela z Marginesami</h1>
+    <div class="lgbt-colors">Kolory LGBT</div>
     <table class="double-margin">
         <tr>
             <th>Kolumna 1</th>
             <th>Kolumna 2</th>
         </tr>
         <tr>
-            <td>Wartość 1</td>
-            <td>Wartość 2</td>
+            <td>Komórka 1</td>
+            <td>Komórka 2</td>
         </tr>
     </table>
-
     <table class="triple-margin">
         <tr>
             <th>Kolumna 1</th>
             <th>Kolumna 2</th>
         </tr>
         <tr>
-            <td>Wartość 1</td>
-            <td>Wartość 2</td>
+            <td>Komórka 1</td>
+            <td>Komórka 2</td>
         </tr>
     </table>
-
     <table class="quadruple-margin">
         <tr>
             <th>Kolumna 1</th>
             <th>Kolumna 2</th>
         </tr>
         <tr>
-            <td>Wartość 1</td>
-            <td>Wartość 2</td>
+            <td>Komórka 1</td>
+            <td>Komórka 2</td>
         </tr>
     </table>
-
     <table class="selected-margins">
         <tr>
             <th>Kolumna 1</th>
             <th>Kolumna 2</th>
         </tr>
         <tr>
-            <td>Wartość 1</td>
-            <td>Wartość 2</td>
+            <td>Komórka 1</td>
+            <td>Komórka 2</td>
         </tr>
     </table>
 </body>
 </html>
+
 
