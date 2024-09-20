@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marginesy w Tabeli</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px; /* Zadanie 1: Podstawowe marginesy wewnętrzne */
+        }
+        .double-margin {
+            margin: 20px 10px; /* Zadanie 2: Zapis Podwójny Marginesu */
+        }
+        .triple-margin {
+            margin: 30px 20px 10px 20px; /* Zadanie 3: Zapis Potrójny Marginesu */
+        }
+        .quadruple-margin {
+            margin: 40px 30px 20px 10px; /* Zadanie 4: Zapis Poczwórny Marginesu */
+        }
+        .selected-margins {
+            margin-top: 15px; /* Zadanie 5: Marginesy Dla Wybranych Stron */
+            margin-right: 25px;
+            margin-bottom: 35px;
+            margin-left: 45px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Przykładowa Tabela z Marginesami</h1>
+    <table class="double-margin">
+        <tr>
+            <th>Kolumna 1</th>
+            <th>Kolumna 2</th>
+        </tr>
+        <tr>
+            <td>Wartość 1</td>
+            <td>Wartość 2</td>
+        </tr>
+    </table>
+
+    <table class="triple-margin">
+        <tr>
+            <th>Kolumna 1</th>
+            <th>Kolumna 2</th>
+        </tr>
+        <tr>
+            <td>Wartość 1</td>
+            <td>Wartość 2</td>
+        </tr>
+    </table>
+
+    <table class="quadruple-margin">
+        <tr>
+            <th>Kolumna 1</th>
+            <th>Kolumna 2</th>
+        </tr>
+        <tr>
+            <td>Wartość 1</td>
+            <td>Wartość 2</td>
+        </tr>
+    </table>
+
+    <table class="selected-margins">
+        <tr>
+            <th>Kolumna 1</th>
+            <th>Kolumna 2</th>
+        </tr>
+        <tr>
+            <td>Wartość 1</td>
+            <td>Wartość 2</td>
+        </tr>
+    </table>
+</body>
+</html>
+
